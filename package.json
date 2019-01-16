@@ -18,12 +18,19 @@
   "homepage": "https://github.com/wukimmy/weather#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "browser-sync": "^2.26.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-useref": "^3.1.6",
     "request": "^2.88.0"
   },
   "devDependencies": {
     "@aws-amplify/cli": "^0.2.1-multienv.26",
-    "dotenv": "^6.2.0"
+    "dotenv": "^6.2.0",
+    "gulp": "^4.0.0"
   }
 }
